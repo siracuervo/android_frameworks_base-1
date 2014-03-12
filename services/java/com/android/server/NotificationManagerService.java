@@ -2604,9 +2604,9 @@ public class NotificationManagerService extends INotificationManager.Stub
             enableLed = true;
         } else if (mInCall || (mScreenOn && !ScreenOnNotificationLed && !mDreaming)) {
             enableLed = false;
-        } else if (inQuietHours() && mQuietHoursDim)) {
+        } else if (inQuietHours() && mQuietHoursDim) {
             enableLed = false;
-        } else {
+        } else if {
             enableLed = true;
         }
 
