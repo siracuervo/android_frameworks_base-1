@@ -2606,7 +2606,7 @@ public class NotificationManagerService extends INotificationManager.Stub
             enableLed = false;
         } else if (inQuietHours() && mQuietHoursDim) {
             enableLed = false;
-        } else if {
+        } else {
             enableLed = true;
         }
 
